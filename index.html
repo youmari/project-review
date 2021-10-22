@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script  src="js/index.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Survey</h1>
+    <p id="description">This is a survey test for microverse</p>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" required placeholder="enter the name"><br>
+      <label for="email" id="email-label">Email </label> <br>
+      <input id="email" required type="email" placeholder="enter the email"><br>
+      <label for="number" id="number-label">Number</label><br>
+      <input type="number" name="" id="number" min=10 max=100 placeholder="enter the number"><br>
+      <label for="roles">select current role</label><br>
+      <select name="roles" id="dropdown">
+        <option value="student">Student</option>
+        <option value="full-time-learner">Full Time Learner</option>
+        <option value="full-time-job">Full time Job</option>
+      </select>
+
+      <fieldset>
+        <input type="radio" name="radiobutton" value="definitely">
+        <label >Definitely</label><br>
+        <input type="radio" name="radiobutton" value="maybe">
+        <label >Maybe</label><br>
+        <input type="radio" name="radiobutton"value="notSure">
+        <label >Not Sure</label><br>
+      </fieldset>
+      <fieldset>
+        <input type="checkbox" value="wiki">
+        <label>Wiki</label><br>
+        <input type="checkbox" value="forum">
+        <label >Forum</label><br>
+        <input type="checkbox" value="videos">
+        <label>Videos</label><br>
+      </fieldset>
+      <label for="comments">Any Comments or suggestions?</label><br>
+      <textarea name="comments" id="" cols="30" rows="10" placeholder="Enter your comment here"></textarea><br>
+      <button id="submit">Submit</button>
+    </form>
+
+    
+  </body>
+</html>
+  
